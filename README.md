@@ -4,6 +4,8 @@ Security-focused AWS networking lab demonstrating VPC segmentation, Infrastructu
 
 ## Architecture
 
+![AWS Security Lab Architecture](architecture/aws-security-lab-architecture.png)
+
 The environment consists of:
 
 - VPC — `10.20.0.0/16`
@@ -69,7 +71,7 @@ Terraform successfully created all eight managed resources, followed by state ve
 
 All eight Terraform-managed resources were destroyed after testing, and the state was verified afterward.
 
-![Terraform destroy and state verification](screenshots/terraform-destroy-verify.png)
+![Terraform destroy verification](screenshots/terraform-destroy-complete.png)
 
 ## Workflow
 
