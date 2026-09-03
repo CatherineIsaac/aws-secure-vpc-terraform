@@ -1,0 +1,34 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
